@@ -57,6 +57,7 @@
 			<CX>300</CX>
 			<CY>120</CY>
 		</Size>
+		<MinVSize>100</MinVSize>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_Transparent>true</Style_Transparent>
 		<DrawTemplate>WDT_Inner</DrawTemplate>

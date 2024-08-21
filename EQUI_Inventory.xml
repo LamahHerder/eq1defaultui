@@ -65,11 +65,11 @@
 		<ScreenID>IW_ReclaimButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>303</X>
+			<X>298</X>
 			<Y>61</Y>
 		</Location>
 		<Size>
-			<CX>108</CX>
+			<CX>115</CX>
 			<CY>25</CY>
 		</Size>
 		<TooltipReference>Reclaim Dragons of Norrath Crystal Currencies</TooltipReference>
@@ -1627,15 +1627,18 @@
 		<ScreenID>IW_GoodPoints</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>303</X>
+			<X>298</X>
 			<Y>12</Y>
 		</Location>
 		<Size>
-			<CX>108</CX>
+			<CX>115</CX>
 			<CY>24</CY>
 		</Size>
 		<TooltipReference>Radiant Crystals</TooltipReference>
 		<Text>9999</Text>
+		<TextAlignCenter>false</TextAlignCenter>
+		<TextAlignRight>true</TextAlignRight>
+		<TextOffsetX>10</TextOffsetX>
 		<ButtonDrawTemplate>
 			<Normal>A_RecessedBox</Normal>
 			<NormalDecal>A_RadiantCrystal</NormalDecal>
@@ -1653,15 +1656,18 @@
 		<ScreenID>IW_EvilPoints</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>303</X>
+			<X>298</X>
 			<Y>36</Y>
 		</Location>
 		<Size>
-			<CX>108</CX>
+			<CX>115</CX>
 			<CY>24</CY>
 		</Size>
 		<TooltipReference>Ebon Crystals</TooltipReference>
 		<Text>9999</Text>
+		<TextAlignCenter>false</TextAlignCenter>
+		<TextAlignRight>true</TextAlignRight>
+		<TextOffsetX>10</TextOffsetX>
 		<ButtonDrawTemplate>
 			<Normal>A_RecessedBox</Normal>
 			<NormalDecal>A_EbonCrystal</NormalDecal>
@@ -1679,14 +1685,17 @@
 		<ScreenID>IW_Money0</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>303</X>
+			<X>298</X>
 			<Y>87</Y>
 		</Location>
 		<Size>
-			<CX>108</CX>
+			<CX>115</CX>
 			<CY>24</CY>
 		</Size>
 		<Text>9999</Text>
+		<TextAlignCenter>false</TextAlignCenter>
+		<TextAlignRight>true</TextAlignRight>
+		<TextOffsetX>10</TextOffsetX>
 		<Template>BDT_PlatinumCoin</Template>
 		<DecalOffset>
 			<X>1</X>
@@ -1701,14 +1710,17 @@
 		<ScreenID>IW_Money1</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>303</X>
+			<X>298</X>
 			<Y>111</Y>
 		</Location>
 		<Size>
-			<CX>108</CX>
+			<CX>115</CX>
 			<CY>24</CY>
 		</Size>
 		<Text>9999</Text>
+		<TextAlignCenter>false</TextAlignCenter>
+		<TextAlignRight>true</TextAlignRight>
+		<TextOffsetX>10</TextOffsetX>
 		<Template>BDT_GoldCoin</Template>
 		<DecalOffset>
 			<X>1</X>
@@ -1723,14 +1735,17 @@
 		<ScreenID>IW_Money2</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>303</X>
+			<X>298</X>
 			<Y>135</Y>
 		</Location>
 		<Size>
-			<CX>108</CX>
+			<CX>115</CX>
 			<CY>24</CY>
 		</Size>
 		<Text>9999</Text>
+		<TextAlignCenter>false</TextAlignCenter>
+		<TextAlignRight>true</TextAlignRight>
+		<TextOffsetX>10</TextOffsetX>
 		<Template>BDT_SilverCoin</Template>
 		<DecalOffset>
 			<X>1</X>
@@ -1745,14 +1760,17 @@
 		<ScreenID>IW_Money3</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>303</X>
+			<X>298</X>
 			<Y>159</Y>
 		</Location>
 		<Size>
-			<CX>108</CX>
+			<CX>115</CX>
 			<CY>24</CY>
 		</Size>
 		<Text>9999</Text>
+		<TextAlignCenter>false</TextAlignCenter>
+		<TextAlignRight>true</TextAlignRight>
+		<TextOffsetX>10</TextOffsetX>
 		<Template>BDT_CopperCoin</Template>
 		<DecalOffset>
 			<X>1</X>
@@ -6026,15 +6044,15 @@
 			<Heading></Heading>
 		</Columns>
 		<Columns>
-			<Width>200</Width>
+			<Width>175</Width>
 			<Heading>Name</Heading>
 		</Columns>
 		<Columns>
-			<Width>50</Width>
+			<Width>135</Width>
 			<Heading>Expansion</Heading>
 		</Columns>
 		<Columns>
-			<Width>50</Width>
+			<Width>65</Width>
 			<Heading>Quantity</Heading>
 		</Columns>
 	</Listbox>
